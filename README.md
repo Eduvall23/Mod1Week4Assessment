@@ -36,21 +36,21 @@ To Edit the README:
     Which of the following is NOT a valid way to create an instance of Chair? And why does this option not work?  
     A. `var bench = new Chair(24, true);`  
     B. `Chair bench = new Chair(24, true);`  
-    C. `var bench = new(24, true);`  
+    C. `var bench = new(24, true);`  this one is because you arent ever declaring that its a chair so it wouldnt work 
     D. `Chair bench = new(24, true);`  
     
     
 2. Imagine you are interviewing for your first job.  The interviewer asks "What can you tell me about OOP?".  Write your response below:
-
+oop is obeject orianted programing where we use methods and classes to make our job jsut a lot simpler and eaiser overall so we arent rewriting the same long code blocks and rather could make a method for somthing that we have to do multiple times
 
 3. What is Automated Testing?
-
+automated testing is using the unix type of file to test all your mehotds and code for you wihtout having to guess and check over and over again
 
 4. What are some benefits of creating tests for our projects?
-
+it allows you to see exaclty whats wrong and its a time saver andd the longer the project the more helpful it becomes it like sclaes 
 
 5. When you create a test project, you do not immediately have access to the class(es) in the project that you are testing.  What do you need to do in order to have access to those classes?
-
+you have to rightclick on the soulution manager and add a refrence to the other file 
 6. Take a look at the class below.  Write out the **names** of each test you would write to verify that this class is working. You do not need to write the whole test, just what you would **name** the test methods. Ex: `IsCreatedWithTwoArguments()`
 ```c#
     public class Vehicle
@@ -84,7 +84,7 @@ To Edit the README:
     }
 ```
 
-
+CanCreateCehichle()  CanuseSummary() CanDrive() CanChangePaintColor()
 
 ## Exercise (8 Points Possible)
 In Visual Studio, clone your forked repository.  
