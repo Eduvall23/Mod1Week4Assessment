@@ -18,11 +18,26 @@ namespace Vehicle.UnitTests
         {
             Vehicle andysBike = new Vehicle(2, "Blue");
 
-            var expected = "This Blue vehicle has 2 wheels and has driven 0 miles";
+            var expected = "This Blue vehicle has 2 wheels, and has driven 0 miles.";
 
-
+            Assert.Equal(andysBike.Summary(), expected);
         }
 
         // Add more tests here!
+
+        [Fact]
+        public void CanDriveAddMoreMiles() 
+        {
+            Vehicle andysBike = new Vehicle(2, "Blue");
+            andysBike.Drive();
+            Assert.Equal(5, andysBike.MilesDriven);
+        }
+        [Fact]  
+        public void CanChangeCarColor() 
+        {
+            Vehicle andysBike = new Vehicle(2, "Blue");
+            andysBike.Paint("Purple");
+            Assert.Equal("Purple", andysBike.Color);
+        }
     }
 }
